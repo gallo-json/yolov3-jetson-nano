@@ -1,3 +1,11 @@
+## Fork
+
+The Jetson Nano uses a different OpenCV `VideoCapture` protocol and so the the code from the original repository sometimes has trouble with it. This fork fixes those problems.
+
+It does not use the JetCam library, because that library creates a wrapper class over the `VideoCapture`, however, the code was referenced. 
+
+See more here: https://github.com/NVIDIA-AI-IOT/jetcam
+
 <a href="https://apps.apple.com/app/id1452689527" target="_blank">
 <img src="https://user-images.githubusercontent.com/26833433/85940594-2d3f7d80-b8d2-11ea-809a-87b3bf6d968b.jpg" width="1000"></a>
 &nbsp
